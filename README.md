@@ -1,12 +1,14 @@
-##### Part 1: Object Detection
+### Part 1: Object Detection
 - Dataset:
   - SKU-110k Dataset is used
   - The [SKU-110k](https://docs.ultralytics.com/datasets/detect/sku-110k/) dataset is a collection of 11,762 densely packed retail shelf images and the dataset contains over 110,000 unique store keeping unit (SKU) categories with densely packed objects, often looking similar or even identical, positioned in proximity.
 - Model:
- - pretrained Yolo11 model is used
+ - pretrained **Yolo11** model is used
  - input is an image containing products on the self and output is image with bounding boxes of products on the self
+   [](datasets/SKU-110K/images/test_20.jpg)
+   [](example_OD_1.png)
    
-##### Part 3: Augmented Reality
+### Part 3: Augmented Reality
 AR Effects:
 - Color Manipulation:
  - The image is converted to the HSV color space using cv2.cvtColor.
