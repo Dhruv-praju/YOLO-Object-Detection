@@ -5,8 +5,8 @@
 - Model:
  - pretrained **Yolo11** model is used
  - input is an image containing products on the self and output is image with bounding boxes of products on the self
-   [](datasets/SKU-110K/images/test_20.jpg)
-   [](example_OD_1.png)
+   ![](datasets/SKU-110K/images/test_20.jpg)
+   ![](example_OD_1.png)
    
 ### Part 3: Augmented Reality
 AR Effects:
